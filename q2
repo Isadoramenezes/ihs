@@ -1,0 +1,8 @@
+# include <stdio.h>
+
+int main(){
+  int f, g, h, i;
+
+  f = g + h;
+  f = i + g + h;
+}
