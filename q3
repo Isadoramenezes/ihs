@@ -1,0 +1,8 @@
+#B
+lw $t0,8($s7)
+
+#Subtração de i - j
+sub $t3, $s3, $s4
+
+#A
+lw $t1,$t3($s4)
