@@ -1,16 +1,39 @@
 #include<stdio.h>
 
 int main(){
-int t0, t1, t2, s0, s1, s2, s7, f 
+  int f, g, h, i, j;
+  int temp_0; temp_1, temp_2;
+  f = 1;
+  g = 1;
+  int A[f];
+  int B[g];
 
-s0 = f*4;
+  //sll $t0, $s0, 2 
+  f = 2;
+  temp_0 = f;
 
+  //add $t0, $s6, $t0 
+  temp_0 = A[f] + temp_0;
+  
+  //sll $t1, $s1, 2 
+  g = 2;
+  temp_1 = g;
 
-//s11$t0, $s0, 2 # $t0 = f*4
-t0 = f0
-
-//add $t0, $s6, $t0 
-
-
-
+  //add $t1, $s7, $t1 
+  temp_1 = B[g] + temp_1;
+  
+  // lw $s0, $($t0)
+  f = A[2];
+  
+  //addi $t2, $t0, 4
+  temp_2 = temp_0 + 4;
+  
+  //lw $t0, 0($t2)
+  temp_0 = int C[temp_2+0]
+  
+  //add $t0, $t0, $s0
+  temp_0 = temp_0 + f;
+  
+  //sw $t0, 0($t1)
+  int D[temp_1 + 0] = temp_0;
 }
