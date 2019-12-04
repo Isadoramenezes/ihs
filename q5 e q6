@@ -1,4 +1,10 @@
- /* |  OP  | |  RS | | RD  | |  RT  | | Shamt | |  Funct |
+Desafio 5
+0x80000000+0xD0000000 = 150000000(hex)
+Sim, teve overflow.
+
+
+
+6 /* |  OP  | |  RS | | RD  | |  RT  | | Shamt | |  Funct |
     |000000| |10000| |10000| |10000 | | 00000 | | 100000 |
     | add  | | $s0 | | $s0 | | $s0 |  |   0   | |2^5 = 32|*/
  
