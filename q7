@@ -6,3 +6,15 @@
 add $s0, $s1, $s2
 
 0000 0000 0100 0010 0001 0000 0010 0010
+
+-- Hello World
+
+.data
+
+Hello: .asciiz “Hello World”
+
+.text
+
+Li $vo, 4 //Comando 4 é printar uma string La $a0, Hello
+Syscall //Chamada do sistema
+
